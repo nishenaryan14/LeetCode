@@ -24,5 +24,5 @@
 
     Example 1:
     Input: s = "abcde", goal = "cdeab"
-    here concat = abcdeabcde <= here you can notice that when s is appended to itself in concat goal can be noticed .            Keeping this in mind we can use this to get the output i.e.,
+    here concat = abcdeabcde <= here you can notice that when s is appended to itself in concat goal can be noticed . Keeping this in mind we can use this to get the output i.e.,
     Output: true
