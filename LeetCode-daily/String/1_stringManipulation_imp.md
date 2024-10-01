@@ -18,3 +18,11 @@
     Return Value:
     If the substring str1 is found in str2, the method returns the index (starting from 0) of the first occurrence.
     If the substring is not found, the method returns -1.
+
+## to check if s2 is rotation of s1:
+    just make a string concat and initialize it to s1+s1 and check by an inbuilt method .contains . Like concat.contains(s2)     , if it return true then s2 is rotation of s1 otherwise not. Why ?? you ask....
+
+    Example 1:
+    Input: s = "abcde", goal = "cdeab"
+    here concat = abcdeabcde <= here you can notice that when s is appended to itself in concat goal can be noticed .            Keeping this in mind we can use this to get the output i.e.,
+    Output: true
